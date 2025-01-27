@@ -3,7 +3,8 @@
   sudo docker run --entrypoint bash -it python:3.12.8
   pip --version
 Question 2. Understanding Docker networking and docker-compose
-
+	hostname is the service name
+	host port is the first one in ports:'5433:5432'
 # Question 3. Trip Segmentation Count
   SELECT
       COUNT(*)
